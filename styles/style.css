@@ -1,0 +1,69 @@
+@import url('./layout.css');
+body nav ul{
+    display: flex;
+    background: grey;
+    justify-content: space-around;
+}
+
+body nav li{
+    padding: 1.5em;
+}
+
+body nav a{
+    color: white;
+    text-decoration: none;
+}
+
+body nav a:hover{
+    color: black;
+}
+main figure{
+    float: left;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+
+header{
+    margin-left: 9em;
+}
+
+aside img.preety-dog{
+    height: 400px;
+    width: 350px;
+    
+    size-adjust: auto;
+}
+
+cite#cite2{
+    background-color: black;
+    text-align: center;
+    padding-left: 6em;
+    padding-right: 9.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+aside{
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    margin-right: 2em;
+}
+
+
+    order: 3;
+   
+
+body img.preety-dog{
+    width: 400px;
+    height: 80%;
+    border: 2px solid black;
+
+}
+
+footer img.bottome{
+  height: 20%;
+  
+}
